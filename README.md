@@ -32,13 +32,13 @@ No Python was used in this project. All analytical logic lives in SQL.
 
 ## Analytical Pipeline
 
-| Stage                   | Business Question                                            | Key Technique                                                             |
-| ----------------------- | ------------------------------------------------------------ | ------------------------------------------------------------------------- |
-| 1 — Traffic Acquisition | Which channels drive sessions and convert to orders?         | LEFT JOIN sessions to orders, GROUP BY source/campaign/device             |
-| 2 — Conversion Funnel   | Where do visitors drop off between landing and purchase?     | Conditional aggregation with MAX(CASE WHEN), step-by-step drop-off rates  |
-| 3 — Product Performance | Which products drive revenue, and which have quality issues? | JOIN order_items to refunds, self-join for cross-sell analysis            |
-| 4 — Channel Trends      | How did the business grow month by month?                    | DATE_TRUNC('month'), monthly aggregation across 3 years                   |
-| 5 — Customer Behaviour  | Do repeat visitors behave differently from new ones?         | Window functions for share percentages, CTE-based customer classification |
+| Stage                  | Business Question                                            | Key Technique                                                             |
+| ---------------------- | ------------------------------------------------------------ | ------------------------------------------------------------------------- |
+| 1. Traffic Acquisition | Which channels drive sessions and convert to orders?         | LEFT JOIN sessions to orders, GROUP BY source/campaign/device             |
+| 2. Conversion Funnel   | Where do visitors drop off between landing and purchase?     | Conditional aggregation with MAX(CASE WHEN), step-by-step drop-off rates  |
+| 3. Product Performance | Which products drive revenue, and which have quality issues? | JOIN order_items to refunds, self-join for cross-sell analysis            |
+| 4. Channel Trends      | How did the business grow month by month?                    | DATE_TRUNC('month'), monthly aggregation across 3 years                   |
+| 5. Customer Behaviour  | Do repeat visitors behave differently from new ones?         | Window functions for share percentages, CTE-based customer classification |
 
 ---
 
