@@ -1,0 +1,3 @@
+"device_type","total_sessions","reached_home","reached_products","home_to_products_pct","reached_product_page","products_to_eachproduct_pct","reached_cart","page_to_cart_pct","reached_shipping","cart_to_shipping_pct","reached_billing","shipping_to_billing_pct","reached_thankyou","billing_to_thankyou_pct"
+"desktop","327027","87263","192325","220.40","163214","84.86","75155","46.05","52692","70.11","43722","82.98","27805","63.59"
+"mobile","145844","50313","68906","136.95","47000","68.21","19798","42.12","11792","59.56","8336","70.69","4508","54.08"

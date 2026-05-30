@@ -1,0 +1,4 @@
+"customer_type","num_customers","customer_share_pct","total_orders","avg_order_value","total_revenue"
+"Single Order","31105","98.14","31105","59.93","1864153.31"
+"2 Orders","565","1.78","1130","61.67","69687.40"
+"3 Orders","26","0.08","78","59.86","4669.04"

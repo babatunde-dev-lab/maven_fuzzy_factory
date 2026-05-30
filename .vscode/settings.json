@@ -1,0 +1,17 @@
+{
+	"sqltools.connections": [
+		{
+			"previewLimit": 5000
+		},
+		{
+			"ssh": "Disabled",
+			"previewLimit": 50,
+			"server": "localhost",
+			"port": 5432,
+			"driver": "PostgreSQL",
+			"name": "Mavin_Fuzzy",
+			"database": "mazzy_fuzzy_factory",
+			"username": "postgres"
+		}
+	]
+}
