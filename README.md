@@ -83,8 +83,7 @@ Maven Fuzzy Factory grew from a single-product startup generating $3,000 per mon
 ## Author
 
 **Babatunde**
-B.Tech Agricultural Engineering — LAUTECH 2024
-Lagos, Nigeria
+Data Analyst | Agricultural Engineering Graduate
 
 [GitHub](https://github.com/babatunde-dev-lab)
 
